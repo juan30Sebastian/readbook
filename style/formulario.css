@@ -1,0 +1,39 @@
+.contenedor{
+display: flex;
+justify-content: center;
+align-items: center ;
+    background-image: url();
+}
+.form {
+    background-color: black;
+    width: 700px;
+    height: 500px;
+    border-radius: 30px;
+}
+.titulo{
+    text-align: center;
+    font-size: 3rem;
+    color: #FFCB76;
+}
+label {
+    margin-left: 10%;
+    font-size: 1rem;
+    color: gray;
+}
+input {
+    border: 0ch;
+    width: 60%;
+    height: 30px;
+    margin-left: 30%;
+    background-color: black;
+    border-bottom: 2px solid #FFCB76;
+    border-radius: 50px;
+    color: white;
+    text-align: center  ;
+}
+#submit {
+    background-color: #FFCB76;
+    margin-top: 40px;
+    margin-left: 5  0%;
+    width: 150px;
+}
