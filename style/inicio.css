@@ -214,10 +214,10 @@ transition: 0.6s;
         font-size:2rem;
         margin-left: 20px;
         letter-spacing: 2px;
-        text-align: center;
+        margin-left: 110px;
     }
     .navigation ul {
-        margin-left : 5px;
+        margin-left : 50px;
         padding: 0;
         list-style: none;
     }
@@ -237,7 +237,7 @@ transition: 0.6s;
     }
     .contenedor{
         width: 85%;
-        max-width: 1500px;
+        max-width: 400px;
         margin: 0 auto;
     }
     .title {
@@ -245,7 +245,7 @@ transition: 0.6s;
         text-align: center;
     }
     .contenedor-slider {
-        max-width: 400px;
+        max-width: 700px;
         height: 400px;
         margin: auto;
         display: flex;
@@ -307,7 +307,7 @@ transition: 0.6s;
         z-index: 1;
     }
     .contenido {
-        width: 500px;
+        width: 900px;
         justify-content: center;
         align-items: center;
         margin-top: 70px;
@@ -339,7 +339,7 @@ transition: 0.6s;
     width: 120px;
     height: 200px; 
     margin-top: 120px;
-    margin-left: 20px;
+    margin-left: 4px;
     border-radius: 10px;
     animation: imagen-footer 4s alternate linear infinite;
 }
@@ -349,7 +349,7 @@ transition: 0.6s;
     transform: translateX(19px);
 }
 .navigation-footer ul {
-    margin-left : 2px;
+    margin-left : 0px;
     margin-top: 120px;
     padding: 5px;
     list-style: none;
@@ -365,6 +365,7 @@ transition: 0.6s;
 .h3iconos-footer {
     display: inline-block;
     color: white;
+    font-size: 10px;
 }
 .iconos-footer {
     width: 20px;
