@@ -10,17 +10,28 @@
 <body>
     <div class="contenedor">
         <div id="formulario">
-        <form class="form" action="https://formsubmit.co/juansebastiantobar30@gmail.com" method="post">
+        <form name="form1" class="form">
             <h1 class="titulo">Iniciar sesión</h1>
-            <label>Correo electrónico: <br><input type="email"></inpklut></label><br>
-            <label>Contraseña: <br><input type="password"></label><br>
+            <label>Correo electrónico: <br><input type="email" name="txt" id="correo"></label><br>
+            <label>Contraseña: <br><input type="password" name="num"></label><br>
             <div id="recuperarcontrasena">
             <a id="olvidastetucontrasena" href="#">¿Olvidaste tu contraseña?</a><br>
             </div>
-            <input id="submit" type="submit" value="Ingresar">
+            <input id="submit" type="button" value="Ingresar" onclick="usuariopassword()" onclick="ingresar()">
         </form>
         <a href="formulario.html"><button id="registrarse">Registrarse</button></a>
         </div>
+        <script>
+            function usuariopassword(){
+            if(document.form1.txt.value=="juansebastiantobar30@gmail.com" && document.form1.num.value=="celestejuliana"){window.location="mybook.html ";return}
+            if (document.form1.txt.value=="angela@gmail.com" && document.form1.num.value=="angela"){window.location="mybook.html";return}
+            if (document.form1.txt.value=="admin3" && document.form1.num.value=="1324"){window.location="pagina.htm";return}
+             
+            else {alert("Error en Usuario o Contraseña. Intenta de nuevo.")}
+            }
+            document.oncontextmenu=new Function("return false");
+            </script>
     </div>
+<script src="js/iniciarsesion.js"></script>
 </body>
 </html>

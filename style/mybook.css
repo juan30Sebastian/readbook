@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+}
+#titulo {
+    text-align: center;
+    font-size: 3rem;
+    color: #FFCB76;
+}
+#contenedorlibros {
+    width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+picture {
+    height: 280px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFCB76;
+    margin: 0px 40px
+}
+img {
+    width: 150px;
+}
+button {
+    background-color: #0a497b;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    border-radius: 30px;
+    margin-left: 20%;
+}
