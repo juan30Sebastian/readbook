@@ -1,7 +1,5 @@
-body {
-    background-color: black;
-}
-#titulo {
+#titulonombre {
+    display: none;
     text-align: center;
     font-size: 3rem;
     color: #FFCB76;
@@ -13,6 +11,7 @@ body {
     justify-content: center;
 }
 picture {
+    display: none;
     height: 280px;
     border-radius: 30px;
     align-items: center;
