@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(0, 0, 20);
+    
+}
+.header {
+    background-color: #3183dd;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+}
+.titulo {
+    color: black;
+    letter-spacing: 6px;
+}
+.navigation-header ul {
+    list-style: none;
+}
+.navigation-header ul li {
+    list-style: none;
+    cursor: pointer;
+}
+.navigation-header ul  li a {
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left: 4px;
+    letter-spacing: 5px;
+}
+.main {
+    width: 100%;
+    margin-top: 5rem;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.carrusel {
+    width: 95%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carrusel .box-description {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    background-color: transparent;
+}
+.carrusel .box-description .titulo-carrusel {
+    color: #3183dd;
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+}
+.carrusel .box-description .resena-carrusel {
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+}
+.carrusel .box-description .btn-carrusel {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    letter-spacing: 5px;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+}
